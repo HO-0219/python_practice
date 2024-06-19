@@ -19,7 +19,7 @@ class MainApplication(tk.Frame):
         self.initUI()
 
     def initUI(self):
-        self.parent.title("엑셀 데이터로 라인 차트 만들기")
+        self.parent.title("ERP")
         self.pack(fill=tk.BOTH, expand=1)
         self.create_frames()
         self.create_widgets()
